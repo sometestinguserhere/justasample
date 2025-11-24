@@ -1,0 +1,16 @@
+<Project Sdk="Aspire.AppHost.Sdk/13.0.0">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>940de0d2-e897-4a80-99b9-29bf4c54634b</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ApiTest.ApiService\ApiTest.ApiService.csproj" />
+    <ProjectReference Include="..\ApiTest.Web\ApiTest.Web.csproj" />
+  </ItemGroup>
+
+</Project>
